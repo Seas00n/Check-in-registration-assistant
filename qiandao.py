@@ -21,7 +21,7 @@ for name in df["Student Name"]:
     name_list.append(get_pinyin(name))
 
 
-column_title = input("行标题：")
+column_title = input("第几次签到：")
 has_column = False
 for column in df.columns:
     if column == column_title:
