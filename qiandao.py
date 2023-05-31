@@ -1,7 +1,7 @@
 import pandas as pd
 from pandas import DataFrame
 from xpinyin import Pinyin
-file_path = "qiandao.xlsx"
+file_path = "/path/of/excel"
 
 df = pd.read_excel(file_path,sheet_name="Sheet")
 name_list = []
